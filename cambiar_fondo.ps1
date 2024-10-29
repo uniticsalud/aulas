@@ -49,7 +49,7 @@ if (Test-Path -Path $FilePath -PathType Leaf) {
 }
 
 # Ruta del icono alojado en GitHub
-$imageUrl = "https://raw.githubusercontent.com/arobledoGit/aulas/main/images/$desk_image"
+$imageUrl = "https://raw.githubusercontent.com/uniticsalud/aulas/main/images/$desk_image"
 
 # Descargar el icono desde GitHub
 Invoke-WebRequest -Uri $imageUrl -OutFile "$Path\fondo.jpg"
