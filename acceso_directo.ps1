@@ -34,7 +34,7 @@ if (Test-Path -Path $FilePath -PathType Leaf) {
 }
 
 # Ruta del icono alojado en GitHub
-$iconUrl = "https://raw.githubusercontent.com/arobledoGit/aulas/main/iconos/$icon"
+$iconUrl = "https://raw.githubusercontent.com/uniticsalud/aulas/main/iconos/$icon"
 
 # Ruta local para guardar el icono descargado
 $localIconPath = Join-Path -Path $Path -ChildPath "$icon"
